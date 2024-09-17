@@ -83,5 +83,6 @@ body {
 }
 
 .card__description {
+    text-align: center;
     margin-bottom: 4rem;
 }
