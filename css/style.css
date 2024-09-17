@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --slate-300: #d5e1ef;
+    --slate-500: #66778d;
+    --slate-900: #1f314f;
+
+    --text-bold-font-size: 2.2rem;
+    --text-bold-font-weight: 700;
+    --text-bold-line-height: 1.2rem;
+    --text-bold-letter-spacing: 0;
+
+    --text-reg-font-size: 1.5rem;
+    --text-reg-font-weight: 400;
+    --text-reg-line-height: 1.4rem;
+    --text-reg-letter-spacing: 0.2px;
+}
+
+/* base */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    background: var(--slate-300);
+}
+
+h1 {
+    font-size: var(--text-bold-font-size);
+    font-weight: var(--text-bold-font-weight);
+    line-height: var(--text-bold-line-height);
+    letter-spacing: var(--text-bold-letter-spacing);
+}
+
+p {
+    font-size: var(--text-reg-font-size);
+    font-weight: var(--text-reg-font-weight);
+    line-height: var(--text-reg-line-height);
+    letter-spacing: var(--text-reg-letter-spacing);
+}
