@@ -15,12 +15,12 @@
 
     --text-bold-font-size: 2.2rem;
     --text-bold-font-weight: 700;
-    --text-bold-line-height: 120%;
+    --text-bold-line-height: 1.2;
     --text-bold-letter-spacing: 0;
 
     --text-reg-font-size: 1.5rem;
     --text-reg-font-weight: 400;
-    --text-reg-line-height: 140%;
+    --text-reg-line-height: 1.4;
     --text-reg-letter-spacing: 0.2px;
 }
 
